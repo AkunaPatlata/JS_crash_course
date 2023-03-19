@@ -32,4 +32,4 @@ console.log(`${dollar}$ in euros will be ${euros}€`)
 
 const gb = prompt('Enter the capacity of a flash drive in gb')
 
-console.log(`So, you will be able to save ${Math.floor(gb/820)} files wich size is 820mb`)
+console.log(`So, you will be able to save ${Math.floor(gb*1.024/0.82)} files wich size is 820mb`)
