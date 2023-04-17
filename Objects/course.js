@@ -77,7 +77,6 @@ let cars = {
         let m = Math.floor((total_hours - h) * 60)
         alert(`So your car will need ${h} hours and ${m} minutes to cover ${distance}km`)
     }
-
 }
 cars.display_info()
 
