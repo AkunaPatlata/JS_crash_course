@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(130, 166, 130);
+}
+
+.header{
+    margin-top: 30px;
+    text-align: center;
+    color: orange;
+    padding: auto;
+    background-color: grey;
+    width: 400px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 44px;
+    color: #f14e32;
+}
+
+h1 {
+    margin: auto;
+    
+}

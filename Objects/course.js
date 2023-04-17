@@ -71,12 +71,11 @@ let cars = {
     },
 
     magical_method(distance){
-        let hours = distance/this.max_speed
+        let hours = distance / this.max_speed
         let total_hours = hours + Math.floor(hours / 4)
         let h = Math.floor(total_hours)
         let m = Math.floor((total_hours - h) * 60)
         alert(`So your car will need ${h} hours and ${m} minutes to cover ${distance}km`)
-
     }
 
 }
