@@ -23,7 +23,7 @@ function calcArrProduct(arr) {
           product *= arr[i];
         } else {
           reject("Error! Incorrect array!");
-          return; // додали вихід з функції, щоб продовжити ітерації несенсенсу
+          return; 
         }
       }
       resolve(product);
